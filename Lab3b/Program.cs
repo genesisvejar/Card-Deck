@@ -2,12 +2,6 @@
 using System.Collections.Generic; 
 using Cards2;
 
-// loop while there's more input
-
-
-
-
-
 // Add your code between this comment
 // and the comment below. You can of
 // course add more space between the
@@ -17,10 +11,6 @@ using Cards2;
 // DON'T SHUFFLE THE DECK
 
 Deck deck1 = new Deck();
-
-
-
-
 
 // deal 2 cards each to 4 players (deal properly, dealing
 // the first card to each player before dealing the
@@ -61,10 +51,6 @@ for (int i = 0; i < 4; i++)
 }
 
 
-
-
-
-
 // deal 1 more card to players 2 and 3
 for (int i = 1; i < 3; i++)
 
@@ -82,9 +68,6 @@ Console.WriteLine($"2 more cards to player 2 and 3");
         Console.WriteLine($"{c.Rank} of {c.Suit}");
         Console.WriteLine();
     }
-
-
-
 
 
 // flip all the cards over
